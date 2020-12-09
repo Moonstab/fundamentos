@@ -5,7 +5,6 @@ public class _5_estudo_tipos_primitivos {
     public static void main(String[] args) {
         //informções do usuário
 
-
         //tipos numéricos inteiros
         byte anosDeEmpresa = 23;
         short numeroDeVoos = 542;
@@ -33,7 +32,6 @@ public class _5_estudo_tipos_primitivos {
 		*/
         char status = 'A';
 
-
         //USO DE TODOS OS TIPOS PRIMITIVOS DE LINGUAGEM
 
         //dias de empresa + n�meros de viagem
@@ -43,7 +41,7 @@ public class _5_estudo_tipos_primitivos {
         //pontos por real
         System.out.println(pontosAcumulados / vendasAcumuladas);
 
-        //sal�rio e verifica��o se est� de f�rias
+        //sal�rio e verificacao se esta de ferias
         System.out.println(id + ": ganha -> " + salario);
         System.out.println("F�rias? " + estaDeFerias);
 

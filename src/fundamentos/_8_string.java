@@ -16,7 +16,7 @@ public class _8_string {
         System.out.println(s.concat("!!!"));
         System.out.println(s + "!!!");
 
-        /*verifica se começa com "boa"*/
+        /*verifica se começa com "Boa"*/
         System.out.println(s.startsWith("Boa"));
 
         /* transforma em minuscula e verifica se começa com "boa"*/

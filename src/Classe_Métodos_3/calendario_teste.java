@@ -8,7 +8,7 @@ public class calendario_teste {
         //d1.ano = 2021;
         System.out.printf(d1.obterDataFormatada());
 
-        var d2 = new calendario(9, 6, 2021);
+        var d2 = new calendario();
         //d2.dia = 9;
         //d2.mes = 6;
         //d2.ano = 2021;

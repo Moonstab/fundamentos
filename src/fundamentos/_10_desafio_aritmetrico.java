@@ -17,6 +17,5 @@ public class _10_desafio_aritmetrico {
 
         double resultado = superior / inferior;
         System.out.println("O resultado é " + resultado);
-
     }
 }

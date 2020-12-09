@@ -11,9 +11,9 @@ public class _1_verificar_numero_par {
         Scanner entrada = new Scanner(System.in);
         int num = entrada.nextInt();
 
-        if (num % 2 == 0 && num<= 100){
+        if (num % 2 == 0 && num <= 100) {
             System.out.printf("O numéro %d é número PAR.\n", num);
-        } else if (num % 2 == 1 && num<= 100) {
+        } else if (num % 2 == 1 && num <= 100) {
             System.out.printf("o número %d é número IMPAR.\n", num);
         } else System.out.println("número invalido");
         System.out.println("Fim");

@@ -10,8 +10,7 @@ public class calendario {
     }
 
     calendario() {
-        //caso os parametros não sejam especificados, será
-        //impresso a data 1/1/1970
+        //caso os parametros NAO sejam especificados, será impresso a data 1/1/1970
         dia = 1;
         mes = 1;
         ano = 1970;
