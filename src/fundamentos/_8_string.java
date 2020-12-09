@@ -1,10 +1,11 @@
 package fundamentos;
+
 //as Strings só podem ser alteradas com comandos
 // de notação ponto ".", esse código mostra
 // alguns exemplos a serem usados
 public class _8_string {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         /*utilizado notação ponto com charAT para mostrar
         a letra em cada espaçamento
         que inicia da posição 0*/
@@ -18,7 +19,7 @@ public class _8_string {
         /*verifica se começa com "boa"*/
         System.out.println(s.startsWith("Boa"));
 
-         /* transforma em minuscula e verifica se começa com "boa"*/
+        /* transforma em minuscula e verifica se começa com "boa"*/
         System.out.println(s.toLowerCase().startsWith("boa"));
 
         /* verifica a quantidade de letras da String*/

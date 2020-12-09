@@ -45,13 +45,10 @@ public class _5_estudo_tipos_primitivos {
 
         //sal�rio e verifica��o se est� de f�rias
         System.out.println(id + ": ganha -> " + salario);
-        System.out.println("F�rias? " + estaDeFerias );
+        System.out.println("F�rias? " + estaDeFerias);
 
         //* teste aleat�rio de print de valor char
         System.out.println("Status: " + status);
-
-
-
 
 
     }

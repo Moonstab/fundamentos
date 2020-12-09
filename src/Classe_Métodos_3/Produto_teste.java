@@ -1,4 +1,5 @@
 package Classe_Métodos_3;
+
 //utilização do tipo PRODUTO criado previamente
 public class Produto_teste {
     public static void main(String[] args) {
@@ -13,18 +14,19 @@ public class Produto_teste {
         var p2 = new Produto();
         p2.nome = "Caneta Preta";
         p2.preco = 5;
-        p2.desconto = 0.5;
+        Produto.desconto = 0.5; //uso do desconto a partir da CLASSE (Produto.desconto)
+                                // torna ele aplicável a todos os produtos
 
-        System.out.println(p1.nome);
-        System.out.println(p2.nome);
+        System.out.println(p1.nome + " " + p1.precoComDesconto());
+        System.out.println(p2.nome + " " + p2.precoComDesconto());
 
         double precoFinal1 = p1.precoComDesconto();
         System.out.println("Preço do Notebook com desconto " + precoFinal1);
 
         double precoFinal2 = p2.precoComDesconto();
-        System.out.println("Preço da Caneta Preta com desconto "+ precoFinal2);
+        System.out.println("Preço da Caneta Preta com desconto " + precoFinal2);
 
-        double mediaCarrinho = ((precoFinal1 + precoFinal2)/ 2);
+        double mediaCarrinho = ((precoFinal1 + precoFinal2) / 2);
 
         System.out.printf("Média do carrinho = R$%.2f.", mediaCarrinho);
     }

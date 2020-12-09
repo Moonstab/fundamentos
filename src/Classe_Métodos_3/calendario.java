@@ -5,7 +5,7 @@ public class calendario {
     int dia;
     int ano;
 
-    String obterDataFormatada (){//metodo return é o mais recomendado
+    String obterDataFormatada() {//metodo return é o mais recomendado
         return String.format("%d/%d/%d\n", dia, mes, ano);
     }
 
@@ -24,17 +24,10 @@ public class calendario {
     }
 
 
-
-
-
-
-
-
-
     //segundo exemplo usando a função acima
     //este metodo não irá funcionar em aplicação desktop + UL + mobile
     //funciona apenas em terminal, por isso o método acima é o mais indicado
-    void imprimirDataFormatada(){
+    void imprimirDataFormatada() {
         System.out.printf(obterDataFormatada());
     }
 }

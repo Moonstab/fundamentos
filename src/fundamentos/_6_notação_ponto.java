@@ -2,7 +2,7 @@ package fundamentos;
 
 public class _6_notação_ponto {
 
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
 
         /*Uso do "." para separar sempre os
         tipos de comandos nas

@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class _7_import {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         java.lang.String b = "Boa tarde";
         System.out.println(b);
 

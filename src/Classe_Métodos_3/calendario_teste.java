@@ -17,9 +17,9 @@ public class calendario_teste {
 }
 
 
-        //utilizei \n para pular a linha e mostrar a segunda
-        //função com o "imprimirDataFormatada" criada no objeto CALENDARIO
-        //esta função serviu apenas para chamar outra função (exemplo)
-        //d1.imprimirDataFormatada();
-        //d2.imprimirDataFormatada();
+//utilizei \n para pular a linha e mostrar a segunda
+//função com o "imprimirDataFormatada" criada no objeto CALENDARIO
+//esta função serviu apenas para chamar outra função (exemplo)
+//d1.imprimirDataFormatada();
+//d2.imprimirDataFormatada();
 

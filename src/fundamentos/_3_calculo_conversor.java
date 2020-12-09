@@ -6,19 +6,16 @@ public class _3_calculo_conversor {
     public static void main(String[] args) {
 
         final double ajuste = 32;
-        double fator = 5/9.0;
+        double fator = 5 / 9.0;
         double fah = 86;
-        double cel = ( fah - ajuste ) * fator;
-        System.out.println("O valor em Celcius � " + cel + "�C" );
+        double cel = (fah - ajuste) * fator;
+        System.out.println("O valor em Celcius � " + cel + "�C");
 
 // CTRL+ALT+SETA CIMA/BAIXO duplica a linha de c�digo
 
         fah = 150;
-        cel = ( fah - ajuste ) * fator;
-        System.out.println("O valor em Celcius � " + cel + "�C" );
-
-
-
+        cel = (fah - ajuste) * fator;
+        System.out.println("O valor em Celcius � " + cel + "�C");
 
 
     }
