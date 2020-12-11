@@ -5,13 +5,14 @@ public class Calendario {
     int dia;
     int ano;
 
+
     Calendario() {
         //dia = 1;
         //mes = 1;
         //ano = 1970;
-        this(1, 1, 1970);
         //this(); chama o metodo declarado sem ter que
         //declarar os atributos um a um como foi feito acima
+        this(1, 1, 1970);
     }
 
     Calendario(int diaInicial, int mesInicial, int anoInicial) {
