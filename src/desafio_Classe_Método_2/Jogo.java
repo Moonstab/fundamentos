@@ -10,4 +10,7 @@ public class Jogo {
         this.tamanho = tamanho;
         this.valor = valor;
     }
+    String jogoApresenta() {
+        return "O Jogo " + nome + " pesando " + tamanho + "GB com valor de "+ valor+"R$ será Instalado";
+    }
 }

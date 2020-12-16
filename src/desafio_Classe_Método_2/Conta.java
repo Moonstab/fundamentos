@@ -1,8 +1,8 @@
 package desafio_Classe_Método_2;
 
-import desafio_Classe_Método.Comida;
-
 public class Conta {
+    double gasto;
+    String jogosInstalados = "";
     String login;
     double hddOcupado;
 
@@ -15,11 +15,13 @@ public class Conta {
     void instalar(Jogo jogo) {
         if (jogo != null) {
             this.hddOcupado += jogo.tamanho;
+            this.jogosInstalados += jogo.nome + ", ";
+            this.gasto += jogo.valor;
         }
 
     }
 
     String contaGeral() {
-        return "A conta " + login + " e tenho " + hddOcupado + "GB Ocupados com jogos.";
+        return "A conta " + login + " e tenho " + hddOcupado + "GB ocupados com " + jogosInstalados + ".\n";
     }
 }
