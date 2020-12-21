@@ -21,7 +21,7 @@ public class Calendario {
         ano = anoInicial;
     }
 
-    String obterDataFormatada() {//metodo return é o mais recomendado
+    public String obterDataFormatada() {//metodo return é o mais recomendado
         return String.format("%d/%d/%d\n", this.dia, mes, ano);
     }
 
